@@ -8,7 +8,7 @@ const Order = () => {
             <div className="chat-links">
                 <div className="item">
                     <h1>Telegram</h1>
-                    <button>Open Chat With Us</button>
+                    <button onClick = {() => window.location.assign("https://t.me/obstcompany")}>Open Chat With Us</button>
                 </div>
                 <div className="item">
                     <h1>WhatsApp</h1>
