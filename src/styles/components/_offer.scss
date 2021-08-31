@@ -45,13 +45,14 @@
 
             h1 {
                 font-size: $l-size;
+                font-weight: 700;
                 width: 21rem;
                 text-align: center;
             }
 
             p {
                 font-size: $xs-size;
-                width: 32.6rem;
+                width: 27rem;
                 text-align: center;
             }
 
@@ -60,6 +61,7 @@
                 width: 10rem;
                 height: 4rem;
                 border-radius: .7rem;
+                border-width: .2rem;
                 font-size: $m-size;
             }
         }
