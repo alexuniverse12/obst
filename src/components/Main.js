@@ -1,10 +1,11 @@
 import React from 'react';
+import Offer from "./Offer";
 
 function Main() {
   return (
-    <div className="Main">
-    
-    </div>
+    <>
+      <Offer/>
+    </>
   );
 }
 
