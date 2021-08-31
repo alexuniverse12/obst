@@ -49,3 +49,61 @@
         text-align: center;
     }
 }
+
+
+@media only screen and (max-width: 420px){
+    .order {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 6.8rem;
+    
+        h1 {
+            text-align: center;
+            font-size: $m-size;
+            color: $pink;
+            font-weight: 700;
+        }
+    
+        p {
+            text-align: center;
+            margin-top: 3.2rem;
+            width: 31.3rem;
+            font-weight: 500;
+            font-size: 1.6rem;
+            color: $bone-white;
+        }
+    
+        .chat-links {
+            margin-top: 5.4rem;
+            width: 31.7rem;
+            display: flex;
+            justify-content: space-between;
+    
+            .item {
+                h1 {
+                    font-size: 1.8rem;
+                    text-align: center;
+                    font-weight: 600;
+                }
+    
+                button {
+                    margin-top: 3rem;
+                    width: 14rem;
+                    height: 3rem;
+                    background-color: $bone-white;
+                    border: none;
+                    border-radius: .5rem;
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                    color: $black;
+                }
+            }
+        }
+    
+        #remark {
+            margin-top: 5.6rem;
+            text-align: center;
+        }
+    }
+}

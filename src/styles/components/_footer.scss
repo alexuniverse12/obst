@@ -13,3 +13,9 @@ footer {
         font-weight: 700;
     }
 }
+
+@media only screen and (max-width: 420px){
+    footer {
+        display:none
+    }
+}
