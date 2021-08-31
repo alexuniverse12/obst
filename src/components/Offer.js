@@ -7,7 +7,9 @@ const Offer = () => {
             <div className="offer-text">
                 <h1>Smoothies you need</h1>
                 <p>Get a fresh smoothie in 15 minutes with a free delivery</p>
-                <button>Order</button>
+                <button onClick={() => {
+                    document.getElementsByClassName("order")[3].scrollIntoView({behavior: "smooth", block: "center"});
+                }}>Order</button>
             </div>
             <div className="offer-image"></div>
         </div>

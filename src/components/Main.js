@@ -12,16 +12,13 @@ function Main() {
   return (
     <>
       <Header menu={menu} setMenu={setMenu}/>
-      {!menu && 
-        <>
-            <Offer/>
-            <AboutPage/>
-            <Products/>
-            <Delivery/>
-            <Order/>
-            <Footer/>
-        </>
-      }
+
+      <Offer/>
+      <AboutPage/>
+      <Products/>
+      <Delivery/>
+      <Order/>
+      <Footer/>
     </>
   );
 }

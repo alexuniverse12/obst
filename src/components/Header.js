@@ -29,16 +29,44 @@ const Header = ({menu, setMenu}) => {
         {
                 menu &&
                 <div className = "Menu"> 
-                        <div className = "MenuTag">
+                        <div className = "MenuTag" onClick={ () => {
+                            setMenu(false);
+                            const element = document.getElementsByClassName("AboutPage")[0];
+                            const y = element.getBoundingClientRect().y - 700;
+
+                            window.scrollTo({top: y, behavior: 'smooth'});
+                        }
+                        }>
                             <h2>About</h2>
                         </div>
-                        <div className = "MenuTag">
+                        <div className = "MenuTag" onClick={ () => {
+                            setMenu(false);
+                            const element = document.getElementsByClassName("products")[0];
+                            const y = element.getBoundingClientRect().y - 700;
+
+                            window.scrollTo({top: y, behavior: 'smooth'});
+                        }
+                        }>
                             <h2>Smoothies</h2>
                         </div>
-                        <div className = "MenuTag">
+                        <div className = "MenuTag" onClick={ () => {
+                            setMenu(false);
+                            const element = document.getElementsByClassName("Delivery")[0];
+                            const y = element.getBoundingClientRect().y - 700;
+
+                            window.scrollTo({top: y, behavior: 'smooth'});
+                        }
+                        }>
                             <h2>Delivery</h2>
                         </div>
-                        <div className = "MenuTag">
+                        <div className = "MenuTag" onClick={ () => {
+                            setMenu(false);
+                            const element = document.getElementsByClassName("order")[3];
+                            const y = element.getBoundingClientRect().y - 700;
+
+                            window.scrollTo({top: y, behavior: 'smooth'});
+                        }
+                        }>
                             <h2>Order</h2>
                         </div>
                 </div>
