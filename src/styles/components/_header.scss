@@ -1,6 +1,7 @@
 .Header {
-    width: 80%;
-    margin: auto;
+    width: auto;
+    margin-left: 20.1rem;
+    margin-right: 20.1rem;
     display: flex;
     justify-content: space-between;
 
@@ -9,9 +10,9 @@
         justify-content: space-between;
     }
     .MenuTag {
-        margin-right: 44px;
+        margin-left: 4.4rem;
         h2 {
-            font-size: 24px;
+            font-size: 2.4rem;
         }
     }
 }
