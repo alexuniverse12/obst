@@ -1,5 +1,7 @@
 .offer {
+    margin-top: 10rem;
     display: flex;
+    justify-content: space-between;
     .offer-text {
         margin-top: 10rem;
         margin-left: 20rem;
@@ -23,10 +25,10 @@
         }
     }
     .offer-image {
+        margin-right: 30rem;
         background: url("../images/smoothie-cup.svg") no-repeat center;
         background-size: cover;
-        margin-left: 10rem;
-        width: 67rem;
-        height: 67rem;
+        width: 70rem;
+        height: 70rem;
     }
 }
