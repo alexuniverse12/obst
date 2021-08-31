@@ -3,6 +3,7 @@ import Header from './Header';
 import Offer from "./Offer";
 import AboutPage from './AboutPage';
 import Products from "./Products";
+import Order from './Order';
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
       <Offer/>
       <AboutPage/>
       <Products/>
+      <Order/>
     </>
   );
 }

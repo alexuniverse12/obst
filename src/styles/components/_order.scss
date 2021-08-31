@@ -1,0 +1,49 @@
+.order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: $l-size;
+        color: $pink;
+    }
+
+    p {
+        margin-top: 6rem;
+        width: 66rem;
+        font-weight: 600;
+        font-size: $s-size;
+        color: $bone-white;
+    }
+
+    .chat-links {
+        margin-top: 10rem;
+        width: 50rem;
+        display: flex;
+        justify-content: space-between;
+
+        .item {
+            h1 {
+                font-size: $m-size;
+                text-align: center;
+            }
+
+            button {
+                margin-top: 3rem;
+                width: 19rem;
+                height: 4rem;
+                background-color: $bone-white;
+                border: none;
+                border-radius: .5rem;
+                font-size: 1.8rem;
+                font-weight: 500;
+                color: $black;
+            }
+        }
+    }
+
+    #remark {
+        margin-top: 8rem;
+        text-align: center;
+    }
+}
