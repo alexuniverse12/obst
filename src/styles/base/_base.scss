@@ -4,5 +4,16 @@ html {
 body {
     font-family: "Poppins", Arial, sans-serif;
     background-color: $black;
-    color: wheat;
+    color: white;
+}
+
+h1,h2,h3,p {
+    margin: 0;
+}
+
+%pink-box {
+    background-color: $black;
+    color: white;
+    border: .3rem solid $pink;
+    border-radius: 1rem;
 }
