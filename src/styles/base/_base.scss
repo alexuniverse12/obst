@@ -1,25 +1,5 @@
 html {
-    @media only screen and (min-width: 820px) {  
-        font-size: 5px;
-      }
-      @media only screen and (min-width: 820px) {  
-        font-size: 6px;
-      }
-      @media only screen and (min-width: 1300px) {  
-        font-size: 7px;
-      }
-      @media only screen and (min-width: 1535px) {  
-        font-size: 8px;
-      }
-      @media only screen and (min-width: 1649px) {  
-        font-size: 9px;
-      }
-      @media only screen and (min-width: 1919px) {  
-        font-size: 10px;
-      }     
-      @media only screen and (min-width: 2559px) {  
-        font-size: 13px;
-      } 
+    font-size: calc(100vw / 1920 * 10)
 }
 body {
     font-family: "Poppins", Arial, sans-serif;
