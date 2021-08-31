@@ -1,0 +1,17 @@
+.Header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    .Menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    .MenuTag {
+        margin-right: 44px;
+        h2 {
+            font-size: 24px;
+        }
+    }
+}
