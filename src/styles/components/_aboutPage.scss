@@ -1,6 +1,7 @@
-.AboutPage { 
+@media only screen and (min-width: 421px){
+    .AboutPage { 
     background: url("../images/pinkBack.svg") no-repeat center;
-    background-size: 100% 100%;
+    background-size: 100%;
     width: 100%;
     height: 127rem;
     margin-top: -7rem;
@@ -8,7 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
     #headline {
         padding-top: 30rem;
         h1 {
@@ -18,7 +19,7 @@
             font-weight: 700;
         }
     }
-
+    
     #circles {
         width: 160rem;
         height: 57rem;
@@ -43,12 +44,74 @@
                 white-space: pre-wrap;
             }
         }
-
+    
         #advancedCircle {
             margin-top: 40rem;
             
             h1 {
                 font-size: 3rem;
+            }
+        }
+    }
+
+}
+}
+
+
+
+@media only screen and (max-width: 420px){
+    .AboutPage { 
+        background: url("../images/pinkBackMob.svg") no-repeat center;
+        background-size: 100%;
+        width: 100%;
+        height: 82rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        #headline {
+            margin-right: 4rem;
+            margin-left: 4rem;
+            padding-top: 8.3rem;
+            margin-bottom: 6.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                font-size: $m-size;
+                text-align: center;
+                color: $black;
+                font-weight: 700;
+            }
+        }
+    
+        #circles {
+            height: 44rem;
+            width: 30rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+        
+            
+            .oneCircle {
+                background-color: $black;
+                height: 11.9rem;
+                width: 11.9rem;
+                border-radius: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                h1 {
+                    text-align: center;
+                    font-size: $l-size;
+                    font-size: 1.8rem;
+                    font-weight: 700;
+                    white-space: pre-wrap;
+                }
             }
         }
     }
