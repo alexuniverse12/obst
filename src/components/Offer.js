@@ -5,11 +5,11 @@ const Offer = () => {
     return (
         <div className="offer">
             <div className="offer-text">
-                <h1>Smoothies you need</h1>
-                <p>Get a fresh smoothie in 15 minutes with a free delivery</p>
+                <h1>Smoothies které chcete</h1>
+                <p>Získejte čerstvé smoothie do 15 min s doručením k Vám zdarma</p>
                 <button onClick={() => {
                     document.getElementsByClassName("order")[3].scrollIntoView({behavior: "smooth", block: "center"});
-                }}>Order</button>
+                }}>Objednat</button>
             </div>
             <div className="offer-image"></div>
         </div>

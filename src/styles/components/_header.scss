@@ -47,6 +47,7 @@
             background: url('../images/burger.svg') no-repeat center;
             width: 2.5rem;
             height: 2.2rem;
+            margin-top: 0.72rem;
         }
         #active {
             transform: rotate(90deg);
@@ -65,7 +66,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: $m-size;
+        font-size: 1.8rem;
         .MenuTag{
             margin-top: 2rem;
             h2 {

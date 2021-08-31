@@ -5,6 +5,7 @@
         margin-top: 11rem;
         margin-left: 20rem;
         h1 {
+            text-align: center;
             font-size: $xxl-size;
             color: $pink;
         }
@@ -12,14 +13,18 @@
             margin-top: 3rem;
             font-weight: 700;
             font-size: $l-size;
-            width: 58rem;
+            width: 60rem;
         }
         button {
+            // margin: auto;
             margin-top: 9rem;
             @extend %pink-box;
-            width: 14rem;
-            height: 6rem;
-            font-size: $l-size;
+            // border-width: 0.2rem;
+            width: 19rem;
+            height: 7rem;
+            cursor: pointer;
+            text-align: center;
+            font-size: 3.3rem;
             font-weight: 600;
         }
     }
@@ -46,23 +51,23 @@
             h1 {
                 font-size: $l-size;
                 font-weight: 700;
-                width: 21rem;
+                width: 25rem;
                 text-align: center;
             }
 
             p {
-                font-size: $xs-size;
-                width: 27rem;
+                font-size: 2rem;
+                width: 29rem;
                 text-align: center;
             }
 
             button {
                 margin-top: 4rem;
-                width: 10rem;
-                height: 4rem;
+                width: 13.3rem;
+                height: 4.3rem;
                 border-radius: .7rem;
                 border-width: .2rem;
-                font-size: $m-size;
+                font-size: 2.27rem;
             }
         }
 

@@ -7,23 +7,23 @@ const AboutPage = () => {
         return (
             <div className = "AboutPage"> 
                 <div id = "headline">
-                    <h1>We carefuly delivery cheap and tasty smoothies in 15 mins</h1> 
+                    <h1>Opatrně doručíme levné a chutné smoothie do 15 minut</h1> 
                 </div>
                 <div id = "circles" >
                     <div className = "oneCircle">
-                        <h1>CHEAP</h1> 
+                        <h1>Zdravé</h1> 
                     </div>
                     <div className = "oneCircle" id = "advancedCircle">
-                        <h1>{"FREE\nDELIVERY"}</h1> 
+                        <h1>{"Doručení\nzdarma"}</h1> 
                     </div>
                     <div className = "oneCircle">
-                        <h1>TASTY</h1> 
+                        <h1>Chutně</h1> 
                     </div>
                     <div className = "oneCircle" id = "advancedCircle">
-                        <h1>{"FAST\nDELIVERY"}</h1> 
+                        <h1>{"Rychlé\ndoručení"}</h1> 
                     </div>
                     <div className = "oneCircle">
-                        <h1>NUTRICIOUS</h1> 
+                        <h1>Výživně</h1> 
                     </div>
                 </div>
             </div>
@@ -32,26 +32,26 @@ const AboutPage = () => {
         return (
             <div className = "AboutPage"> 
                 <div id = "headline">
-                    <h1>We carefuly delivery cheap and tasty smoothies in 15 mins</h1> 
+                    <h1>Opatrně doručíme levné a chutné smoothie do 15 minut</h1> 
                 </div>
                 <div id = "circles" >
                     <div className = "oneCircle">
-                        <h1>CHEAP</h1> 
+                        <h1>Zdravé</h1> 
                     </div>
                     <div className = "oneCircle">
-                        <h1>TASTY</h1> 
+                        <h1>Chutně</h1> 
                     </div>
                     <div className = "oneCircle" id = "advancedCircle">
-                        <h1>{"FAST\nDELIVERY"}</h1> 
+                        <h1>{"Doručení\nzdarma"}</h1> 
                     </div>
                     <div className = "oneCircle">
-                    <h1>FRESH</h1> 
+                    <h1>Čerstvé</h1> 
                     </div>
                     <div className = "oneCircle">
-                        <h1>NUTRICIOUS</h1> 
+                        <h1>Výživně</h1> 
                     </div>
                     <div className = "oneCircle" id = "advancedCircle">
-                        <h1>{"FREE\nDELIVERY"}</h1> 
+                        <h1>{"Rychlé\ndoručení"}</h1> 
                     </div>
                 </div>
             </div>

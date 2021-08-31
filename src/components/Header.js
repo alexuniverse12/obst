@@ -11,17 +11,25 @@ const Header = ({menu, setMenu}) => {
             {
                     isMobile ? <div className="burg" id={menu ? "active" : "disabled"} onClick={() => setMenu(!menu)}></div> :
                     <div className = "Menu"> 
-                        <div className = "MenuTag">
-                            <h2>About</h2>
+                        <div className = "MenuTag"  onClick={ () => {
+                            setMenu(false);
+                            const element = document.getElementsByClassName("AboutPage")[0];
+                            const y = element.getBoundingClientRect().y - 1400;
+
+                            window.scrollTo({top: y, behavior: 'smooth'});
+                        }
+                        }
+                        >
+                            <h2>O Nás</h2>
                         </div>
                         <div className = "MenuTag">
-                            <h2>Smoothies</h2>
+                            <h2 >Smoothies</h2>
                         </div>
                         <div className = "MenuTag">
-                            <h2>Delivery</h2>
+                            <h2>Doručení</h2>
                         </div>
                         <div className = "MenuTag">
-                            <h2>Order</h2>
+                            <h2>Objednat</h2>
                         </div>
                     </div>
             }
@@ -37,7 +45,7 @@ const Header = ({menu, setMenu}) => {
                             window.scrollTo({top: y, behavior: 'smooth'});
                         }
                         }>
-                            <h2>About</h2>
+                            <h2>O Nás</h2>
                         </div>
                         <div className = "MenuTag" onClick={ () => {
                             setMenu(false);
@@ -57,7 +65,7 @@ const Header = ({menu, setMenu}) => {
                             window.scrollTo({top: y, behavior: 'smooth'});
                         }
                         }>
-                            <h2>Delivery</h2>
+                            <h2>Doručení</h2>
                         </div>
                         <div className = "MenuTag" onClick={ () => {
                             setMenu(false);
@@ -67,7 +75,7 @@ const Header = ({menu, setMenu}) => {
                             window.scrollTo({top: y, behavior: 'smooth'});
                         }
                         }>
-                            <h2>Order</h2>
+                            <h2>Objednat</h2>
                         </div>
                 </div>
             }

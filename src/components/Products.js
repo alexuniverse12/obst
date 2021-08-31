@@ -10,21 +10,21 @@ const Products = () => {
                     <h3 className="name">Pushkoozie</h3>
                     <p className="ingredients">Cherry, raspberry, banana, orange juice</p>
                     <p className="price">99 CZK / 0.5L</p>
-                    <button className="order">Order</button>
+                    <button className="order">Objednat</button>
                 </div>
                 <div className="item">
                     <div className="img"/>
                     <h3 className="name">Pushkoozie</h3>
                     <p className="ingredients">Cherry, raspberry, banana, orange juice</p>
                     <p className="price">99 CZK / 0.5L</p>
-                    <button className="order">Order</button>
+                    <button className="order">Objednat</button>
                 </div>
                 <div className="item">
                     <div className="img"/>
                     <h3 className="name">Pushkoozie</h3>
                     <p className="ingredients">Cherry, raspberry, banana, orange juice</p>
                     <p className="price">99 CZK / 0.5L</p>
-                    <button className="order">Order</button>
+                    <button className="order">Objednat</button>
                 </div>
             </div>
         </div>
