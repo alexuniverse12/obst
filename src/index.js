@@ -6,7 +6,7 @@ import "./styles/styles.scss";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Main/>
+    <Main id = "Main"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
