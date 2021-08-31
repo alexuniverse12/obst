@@ -2,17 +2,34 @@
     width: auto;
     margin-left: 20.1rem;
     margin-right: 20.1rem;
+    margin-top: 5.6rem;
+    margin-bottom: 12rem;
     display: flex;
     justify-content: space-between;
+    align-content: center;
+
+    .Logo {
+        h1 {
+            font-size: $l-size;
+            font-weight: 700;
+            color: #F30600;
+        }
+    }
 
     .Menu {
         display: flex;
+        align-content: center;
         justify-content: space-between;
     }
     .MenuTag {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
         margin-left: 4.4rem;
         h2 {
             font-size: 2.4rem;
+            font-weight: 600;
         }
     }
 }
