@@ -3,6 +3,7 @@ import Header from './Header';
 import Offer from "./Offer";
 import AboutPage from './AboutPage';
 import Products from "./Products";
+import Delivery from './Delivery';
 import Order from './Order';
 
 function Main() {
@@ -12,6 +13,7 @@ function Main() {
       <Offer/>
       <AboutPage/>
       <Products/>
+      <Delivery/>
       <Order/>
     </>
   );
