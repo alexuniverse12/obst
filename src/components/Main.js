@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Header from './Header';
 import Offer from "./Offer";
 import AboutPage from './AboutPage';
@@ -8,15 +8,20 @@ import Order from './Order';
 import Footer from "./Footer";
 
 function Main() {
+  const [menu, setMenu] = useState(false);
   return (
     <>
-      <Header/>
-      <Offer/>
-      <AboutPage/>
-      <Products/>
-      <Delivery/>
-      <Order/>
-      <Footer/>
+      <Header menu={menu} setMenu={setMenu}/>
+      {!menu && 
+        <>
+            <Offer/>
+            <AboutPage/>
+            <Products/>
+            <Delivery/>
+            <Order/>
+            <Footer/>
+        </>
+      }
     </>
   );
 }

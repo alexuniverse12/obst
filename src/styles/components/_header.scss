@@ -32,4 +32,40 @@
             font-weight: 600;
         }
     }
+    @media only screen and (max-width: 480px) {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 4rem;
+        margin-bottom: 0rem;
+
+        .Logo {
+            h1 {
+                font-size: $m-size;
+            }
+        }
+        .burg {
+            background: url('../images/burger.svg') no-repeat center;
+            width: 2.5rem;
+            height: 2.2rem;
+        }
+        #active {
+            transform: rotate(90deg);
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Menu {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: $m-size;
+        .MenuTag{
+            margin-top: 2rem;
+            h2 {
+                font-weight: 600;
+            }
+        }
+    }
 }
