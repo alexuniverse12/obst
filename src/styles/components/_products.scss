@@ -64,3 +64,88 @@
         }
     }
 }
+
+
+
+@media only screen and (max-width: 420px){
+    .products {
+        margin-top: 6.5rem;
+        width: 100%;
+        height: 113rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            font-size: $m-size;
+            color: $light-blue;
+            margin-bottom: -5rem;
+        }
+        .product-list {
+            margin-top: 5rem;
+            width: 26.2rem;
+            height: 34.6rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: center;
+            .item {
+                background-color: $black;
+                color: white;
+                border: .218rem solid $pink;
+                margin-top: 5rem ;
+                border-radius: 1.8rem;
+                width: 26.23rem;
+                height: 34.6rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                .img {
+                    margin-top: 3.84rem;
+                    background: url("../images/bottle.svg") no-repeat center;
+                    background-size: contain;
+                    width: 2.914rem;
+                    height: 7.106rem;
+                }
+    
+                font-weight: 500;
+                
+                .name {
+                    margin-top: 2.901rem;
+                    font-size: 1.741rem;
+                    font-weight: 600;
+                }
+    
+                .ingredients {
+                    margin-top: 1.161rem;
+                    width: 19.4rem;
+                    font-size: 1.451rem;
+                    line-height: 2rem;
+                    color: $dark-grey;
+                    text-align: center;
+                }
+    
+                .price {
+                    margin-top: 2.273rem;
+                    font-size: 1.741rem;
+                    color: $red;
+                }
+                
+                .order {
+                    margin-top: 1.886rem;
+                    background-color: $black;
+                    color: white;
+                    border: .2rem solid $pink;
+                    border-radius: .5rem;
+                    width: 9.618rem;
+                    height: 3.627rem;
+                    font-size: 1.741rem;
+                    font-weight: 700;
+                    margin-bottom: 2.176rem;
+                    padding-top: 0.55rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
