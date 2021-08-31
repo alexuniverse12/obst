@@ -5,6 +5,7 @@ import AboutPage from './AboutPage';
 import Products from "./Products";
 import Delivery from './Delivery';
 import Order from './Order';
+import Footer from "./Footer";
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
       <Products/>
       <Delivery/>
       <Order/>
+      <Footer/>
     </>
   );
 }
