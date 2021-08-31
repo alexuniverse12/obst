@@ -12,7 +12,7 @@ const Order = () => {
                 </div>
                 <div className="item">
                     <h1>WhatsApp</h1>
-                    <button>Open Chat With Us</button>
+                    <button onClick = {() => window.location.assign("https://wa.me/420776542624")}>Open Chat With Us</button>
                 </div>
             </div>
             <p id="remark">*Cash Payment Only</p>
