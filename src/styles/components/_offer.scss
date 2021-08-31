@@ -31,9 +31,43 @@
         height: 65rem;
     }
 
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 480px) {
         width: 100vw;  
         flex-direction: column;
         align-items: center;
+
+        .offer-text {
+            margin-top: 6rem;
+            margin-left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                font-size: $l-size;
+                width: 21rem;
+                text-align: center;
+            }
+
+            p {
+                font-size: $xs-size;
+                width: 32.6rem;
+                text-align: center;
+            }
+
+            button {
+                margin-top: 4rem;
+                width: 10rem;
+                height: 4rem;
+                border-radius: .7rem;
+                font-size: $m-size;
+            }
+        }
+
+        .offer-image {
+            margin: 0;
+            width: 30rem;
+            height: 30rem;
+        }
       }
 }
