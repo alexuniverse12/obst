@@ -1,11 +1,32 @@
 .offer {
     display: flex;
-}
-
-
-.offer-image {
-    background: url("../images/smoothie-cup.svg") no-repeat center;
-    background-size: 100% 100%;
-    width: 87rem;
-    height: 87rem;
+    .offer-text {
+        margin-top: 10rem;
+        margin-left: 20rem;
+        h1 {
+            font-size: $xxl-size;
+            color: $pink;
+        }
+        p {
+            margin-top: 3rem;
+            font-weight: 800;
+            font-size: $l-size;
+            width: 58rem;
+        }
+        button {
+            margin-top: 9rem;
+            @extend %pink-box;
+            width: 14rem;
+            height: 6rem;
+            font-size: $l-size;
+            font-weight: 600;
+        }
+    }
+    .offer-image {
+        background: url("../images/smoothie-cup.svg") no-repeat center;
+        background-size: cover;
+        margin-left: 10rem;
+        width: 80rem;
+        height: 80rem;
+    }
 }
