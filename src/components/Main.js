@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Offer from "./Offer";
 import AboutPage from './AboutPage';
+import Products from "./Products";
 
 function Main() {
   return (
@@ -9,6 +10,7 @@ function Main() {
       <Header/>
       <Offer/>
       <AboutPage/>
+      <Products/>
     </>
   );
 }
