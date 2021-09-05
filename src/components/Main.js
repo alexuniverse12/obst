@@ -10,16 +10,15 @@ import Footer from "./Footer";
 function Main() {
   const [menu, setMenu] = useState(false);
   return (
-    <>
+    <div className = "Main">
       <Header menu={menu} setMenu={setMenu}/>
-
       <Offer/>
       <AboutPage/>
       <Products/>
       <Delivery/>
       <Order/>
       <Footer/>
-    </>
+    </div>
   );
 }
 

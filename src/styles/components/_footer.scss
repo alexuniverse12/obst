@@ -1,18 +1,21 @@
 footer {
-    margin-top: 11rem;
-    margin-bottom: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    #content {
-        width: 44rem;
-        display: flex;
-        justify-content: space-between;
-        color: $dim-pink;
-        font-size: $xs-size;
-        font-weight: 700;
-    }
+    display:none
 }
+// footer {
+//     margin-top: 11rem;
+//     margin-bottom: 3rem;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     #content {
+//         width: 44rem;
+//         display: flex;
+//         justify-content: space-between;
+//         color: $dim-pink;
+//         font-size: $xs-size;
+//         font-weight: 700;
+//     }
+// }
 
 @media only screen and (max-width: 420px){
     footer {

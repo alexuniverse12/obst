@@ -1,5 +1,18 @@
-// .Main {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: flex-start;
-// }
+.Main {
+    display: flex;
+    flex-direction: column;
+    background: url("../images/bottle01.png") no-repeat;
+    background-position: center -6rem;
+    background-size: contain;
+}
+
+
+@media only screen and (max-width: 421px){
+    .Main {
+        display: flex;
+        flex-direction: column;
+        background: url("../images/bottle01Mob.png") no-repeat;
+        background-position: center 15rem;
+        background-size: contain;
+    }
+}

@@ -41,7 +41,7 @@ const app = initializeApp(firebaseConfig);
 
 ReactDOM.render(
   <React.StrictMode>
-    <Main id = "Main"/>
+    <Main/>
   </React.StrictMode>,
   document.getElementById('root')
 );
