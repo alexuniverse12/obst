@@ -8,11 +8,13 @@ const Order = () => {
             <div className="chat-links">
                 <div className="item">
                     <h1>Telegram</h1>
-                    <button onClick = {() => window.location.assign("https://t.me/obstcompany")}>Otevřít Chat s námi</button>
+                    <button>Otevřít Chat s námi</button>
+                    {/* <button onClick = {() => window.location.assign("")}>Otevřít Chat s námi</button> */}
                 </div>
                 <div className="item">
                     <h1>WhatsApp</h1>
-                    <button onClick = {() => window.location.assign("https://wa.me/420776542624")}>Otevřít Chat s námi</button>
+                    <button>Otevřít Chat s námi</button>
+                    {/* <button onClick = {() => window.location.assign("")}>Otevřít Chat s námi</button> */}
                 </div>
             </div>
             <p id="remark">*Platba pouze v hotovosti</p>

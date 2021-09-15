@@ -33,6 +33,7 @@
             }
 
             button {
+                text-align: center;
                 margin-top: 3rem;
                 width: 19rem;
                 height: 4rem;
@@ -90,9 +91,10 @@
                 }
     
                 button {
+                    text-align: center;
                     cursor: pointer;
                     margin-top: 3rem;
-                    width: 14rem;
+                    width: 15rem;
                     height: 3rem;
                     background-color: $bone-white;
                     border: none;
